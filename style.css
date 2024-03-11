@@ -68,6 +68,39 @@ a:hover {
   cursor: default;
 }
 
+
+/* profile image*/
+.images {
+  width: 45%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+
+.images img {
+  height: 60%;
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images .aritra-img-back {
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+.images:hover .aritra-img {
+  left: 45%;
+}
+
+.images:hover .aritra-img-back {
+  bottom: 40px;
+}
+
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -290,7 +323,7 @@ section {
   justify-content: center;
   text-align: justify;
   font-weight: bold;
- 
+
 }
 
 .arrow {
@@ -413,7 +446,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
-  
+
 }
 
 .contact-info-container p {
