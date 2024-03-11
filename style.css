@@ -219,6 +219,10 @@ section {
   height: 2rem;
 }
 
+.icon:hover{
+  transform:translateY(-5px);
+}
+
 /* BUTTONS */
 
 .btn-container {
@@ -226,6 +230,7 @@ section {
   justify-content: center;
   gap: 1rem;
 }
+
 
 .btn {
   font-weight: 600;
@@ -243,6 +248,7 @@ section {
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
+  transform:translateY(-10px);
 }
 
 .btn-color-1,
@@ -446,3 +452,10 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* hi section starts */
+.section__text img {
+  text-decoration-color: black;
+}
+
+/* hi section ends */
