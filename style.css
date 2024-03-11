@@ -62,6 +62,20 @@ a:hover {
 .logo {
   font-size: 2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation : imgg 2s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes imgg {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-22px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .logo:hover {
