@@ -178,7 +178,7 @@ section {
   margin: auto 0;
   /* transition: width 2s, height 2s, transform 2s; */
   animation: imgg 2s ease-in-out infinite;
-  animation-delay: 2s;
+  /* animation-delay: 2s; */
 }
 
 @keyframes imgg{
