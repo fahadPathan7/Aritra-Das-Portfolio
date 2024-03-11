@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: white;
+  background-color: lightgreen;
 }
 
 html {
@@ -62,58 +62,11 @@ a:hover {
 .logo {
   font-size: 2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  animation : imgg 2s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
-@keyframes imgg {
-  0%{
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(-22px);
-  }
-  100%{
-    transform: translateY(0);
-  }
 }
 
 .logo:hover {
   cursor: default;
 }
-
-
-/* profile image*/
-.images {
-  width: 45%;
-  height: 75%;
-  position: absolute;
-  bottom: 0;
-  left: 40px;
-}
-
-.images img {
-  height: 60%;
-  position: absolute;
-  left: 35%;
-  bottom: 0;
-  transform: translate(-50%);
-  transition: bottom 1s, left 1s;
-}
-
-.images .aritra-img-back {
-  margin-bottom: 30px;
-  width: 75%;
-}
-
-.images:hover .aritra-img {
-  left: 45%;
-}
-
-.images:hover .aritra-img-back {
-  bottom: 40px;
-}
-
 
 /* HAMBURGER MENU */
 
@@ -223,17 +176,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  /* transition: width 2s, height 2s, transform 2s; */
 }
-
-.section__pic-container img{
-  animation : imgg 2s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
-
-
-
 
 .section__text {
   align-self: center;
@@ -272,10 +215,6 @@ section {
   height: 2rem;
 }
 
-.icon:hover{
-  transform:translateY(-5px);
-}
-
 /* BUTTONS */
 
 .btn-container {
@@ -283,7 +222,6 @@ section {
   justify-content: center;
   gap: 1rem;
 }
-
 
 .btn {
   font-weight: 600;
@@ -301,7 +239,6 @@ section {
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
-  transform:translateY(-10px);
 }
 
 .btn-color-1,
@@ -352,8 +289,8 @@ section {
   font-size: 1.2rem;
   justify-content: center;
   text-align: justify;
-  font-weight: bold;
   font-style:inherit;
+ 
 }
 
 .arrow {
@@ -411,6 +348,10 @@ section {
   justify-content: space-around;
 }
 
+article-res{
+  text-align: justify;
+}
+
 article {
   display: flex;
   width: 10rem;
@@ -418,13 +359,13 @@ article {
   gap: 0.5rem;
 }
 
+article-pub{
+text-align: justify;
+}
+
 article .icon {
   cursor: default;
 }
-
-/* .article-cert{
-  text-align:left;
-} */
 
 /* PROJECTS SECTION */
 
@@ -480,7 +421,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
-
+  
 }
 
 .contact-info-container p {
@@ -505,10 +446,3 @@ footer {
 footer p {
   text-align: center;
 }
-
-/* hi section starts */
-.section__text img {
-  text-decoration-color: black;
-}
-
-/* hi section ends */
