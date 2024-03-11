@@ -193,6 +193,12 @@ section {
   /* transition: width 2s, height 2s, transform 2s; */
 }
 
+.section__pic-container img{
+  animation : imgg 2s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+
 
 
 
